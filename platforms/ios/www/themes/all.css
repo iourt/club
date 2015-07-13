@@ -7730,7 +7730,12 @@ a, a:hover {
       color: #333; }
       .mod_list_img_only li .this_border img {
         width: 100%; }
+      .mod_list_img_only li .this_border .this_img {
+        max-height: 180px;
+        overflow: hidden;
+        margin-bottom: 5px; }
       .mod_list_img_only li .this_border article {
+        position: relative;
         padding: 0 10px 5px; }
         .mod_list_img_only li .this_border article .this_text {
           font-size: 12px;
@@ -7777,6 +7782,26 @@ a, a:hover {
               overflow: hidden; }
               .mod_list_img_only li .this_border article .this_user dl dd span {
                 margin-right: 5px; }
+        .mod_list_img_only li .this_border article .this_cate {
+          left: 0;
+          top: -70px;
+          position: absolute;
+          z-index: 2;
+          color: #fff; }
+          .mod_list_img_only li .this_border article .this_cate div:first-child {
+            padding: 0 10px;
+            line-height: 18px;
+            font-size: 12px;
+            background: rgba(60, 196, 130, 0.9); }
+            .mod_list_img_only li .this_border article .this_cate div:first-child i {
+              padding-left: 5px; }
+          .mod_list_img_only li .this_border article .this_cate div:last-child {
+            padding: 0 10px;
+            line-height: 30px;
+            font-size: 14px;
+            background: rgba(0, 0, 0, 0.8); }
+            .mod_list_img_only li .this_border article .this_cate div:last-child span {
+              margin-right: 5px; }
 
 .mod_popup {
   width: 300px;
@@ -10464,6 +10489,7 @@ a, a:hover {
           background: #002551;
           height: 40px;
           padding: 0 10px;
+          color: #fff;
           -webkit-border-radius: 0; }
         .user_login_pop dl dd ul li.this_login {
           background: #ff9600;
