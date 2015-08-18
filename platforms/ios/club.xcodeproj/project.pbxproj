@@ -48,6 +48,7 @@
 		9450AC9FC4F7459A94840A1D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B0D06931F745E39AB4D97E /* AVFoundation.framework */; };
 		1FCCDDFF58094E378B925647 /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1ED8EEBF9E44AA9379A37D /* IonicKeyboard.m */; };
 		A837F491B56B4431A2FF8386 /* UIWebViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC3DC6CDEA945C7A9379D99 /* UIWebViewExtension.m */; };
+		BBD13EE507CB42BF8C6C7AF2 /* ActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = C665C898608446E083245D25 /* ActionSheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +130,8 @@
 		ABC3DC6CDEA945C7A9379D99 /* UIWebViewExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIWebViewExtension.m"; path = "com.ionic.keyboard/UIWebViewExtension.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		095AF37812814C109508A8EB /* IonicKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "IonicKeyboard.h"; path = "com.ionic.keyboard/IonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		0DD4AD0484A24D7B8FD699B9 /* UIWebViewExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIWebViewExtension.h"; path = "com.ionic.keyboard/UIWebViewExtension.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		C665C898608446E083245D25 /* ActionSheet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ActionSheet.m"; path = "nl.x-services.plugins.actionsheet/ActionSheet.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		EBB615E1DAC54FFFA99505EF /* ActionSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ActionSheet.h"; path = "nl.x-services.plugins.actionsheet/ActionSheet.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +249,8 @@
 				ABC3DC6CDEA945C7A9379D99 /* UIWebViewExtension.m */,
 				095AF37812814C109508A8EB /* IonicKeyboard.h */,
 				0DD4AD0484A24D7B8FD699B9 /* UIWebViewExtension.h */,
+				C665C898608446E083245D25 /* ActionSheet.m */,
+				EBB615E1DAC54FFFA99505EF /* ActionSheet.h */,
 			);
 			name = Plugins;
 			path = "club/Plugins";
@@ -436,6 +441,7 @@
 				D0C39959B021432D914ADFF3 /* CDVJpegHeaderWriter.m in Sources */,
 				1FCCDDFF58094E378B925647 /* IonicKeyboard.m in Sources */,
 				A837F491B56B4431A2FF8386 /* UIWebViewExtension.m in Sources */,
+				BBD13EE507CB42BF8C6C7AF2 /* ActionSheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

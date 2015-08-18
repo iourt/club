@@ -31,6 +31,10 @@
                         {
                             "xml": "<feature name=\"Keyboard\"><param name=\"ios-package\" onload=\"true\" value=\"IonicKeyboard\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"ActionSheet\"><param name=\"ios-package\" value=\"ActionSheet\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -101,6 +105,9 @@
             "PACKAGE_NAME": "com.phoneapp.club"
         },
         "com.ionic.keyboard": {
+            "PACKAGE_NAME": "com.phoneapp.club"
+        },
+        "nl.x-services.plugins.actionsheet": {
             "PACKAGE_NAME": "com.phoneapp.club"
         }
     },

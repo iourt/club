@@ -41,6 +41,13 @@ module.exports = [
         "clobbers": [
             "cordova.plugins.Keyboard"
         ]
+    },
+    {
+        "file": "plugins/nl.x-services.plugins.actionsheet/www/ActionSheet.js",
+        "id": "nl.x-services.plugins.actionsheet.ActionSheet",
+        "clobbers": [
+            "window.plugins.actionsheet"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -49,7 +56,8 @@ module.exports.metadata =
     "cordova-plugin-whitelist": "1.0.0",
     "cordova-plugin-statusbar": "1.0.1-dev",
     "cordova-plugin-camera": "1.2.1-dev",
-    "com.ionic.keyboard": "1.0.5"
+    "com.ionic.keyboard": "1.0.5",
+    "nl.x-services.plugins.actionsheet": "1.1.7"
 }
 // BOTTOM OF METADATA
 });
