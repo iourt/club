@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D3322C5A-5CC4-4D0F-A08B-357D4007079A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>club</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2EBD71A4DA1DCC1CA5A2F38C2A1422A450D6F07D</key>
+		<string>iourt.github.com:iourt/native.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/club.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2EBD71A4DA1DCC1CA5A2F38C2A1422A450D6F07D</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>iourt.github.com:iourt/native.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2EBD71A4DA1DCC1CA5A2F38C2A1422A450D6F07D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2EBD71A4DA1DCC1CA5A2F38C2A1422A450D6F07D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>native</string>
+		</dict>
+	</array>
+</dict>
+</plist>
