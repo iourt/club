@@ -7228,6 +7228,8 @@ a, a:hover {
   padding-top: 70px; }
 .is_ios .ios_status_bar .mod_show_layout ul {
   top: 80px; }
+.is_ios .ios_status_bar .tab_search_result {
+  top: 64px; }
 
 .unit_btn {
   outline: none;

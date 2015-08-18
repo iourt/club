@@ -27,6 +27,10 @@
                         {
                             "xml": "<preference name=\"CameraUsesGeolocation\" value=\"false\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Keyboard\"><param name=\"ios-package\" onload=\"true\" value=\"IonicKeyboard\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -94,6 +98,9 @@
             "PACKAGE_NAME": "com.phoneapp.club"
         },
         "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.phoneapp.club"
+        },
+        "com.ionic.keyboard": {
             "PACKAGE_NAME": "com.phoneapp.club"
         }
     },

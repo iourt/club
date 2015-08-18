@@ -34,6 +34,13 @@ module.exports = [
         "clobbers": [
             "CameraPopoverHandle"
         ]
+    },
+    {
+        "file": "plugins/com.ionic.keyboard/www/keyboard.js",
+        "id": "com.ionic.keyboard.keyboard",
+        "clobbers": [
+            "cordova.plugins.Keyboard"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -41,7 +48,8 @@ module.exports.metadata =
 {
     "cordova-plugin-whitelist": "1.0.0",
     "cordova-plugin-statusbar": "1.0.1-dev",
-    "cordova-plugin-camera": "1.2.1-dev"
+    "cordova-plugin-camera": "1.2.1-dev",
+    "com.ionic.keyboard": "1.0.5"
 }
 // BOTTOM OF METADATA
 });
