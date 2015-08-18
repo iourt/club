@@ -21,10 +21,6 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"NativePageTransitions\"><param name=\"ios-package\" value=\"NativePageTransitions\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"Camera\"><param name=\"ios-package\" value=\"CDVCamera\" /></feature>",
                             "count": 1
                         },
@@ -95,9 +91,6 @@
             "PACKAGE_NAME": "com.phoneapp.club"
         },
         "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "com.phoneapp.club"
-        },
-        "com.telerik.plugins.nativepagetransitions": {
             "PACKAGE_NAME": "com.phoneapp.club"
         },
         "cordova-plugin-camera": {

@@ -8,13 +8,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/com.telerik.plugins.nativepagetransitions/www/NativePageTransitions.js",
-        "id": "com.telerik.plugins.nativepagetransitions.NativePageTransitions",
-        "clobbers": [
-            "window.plugins.nativepagetransitions"
-        ]
-    },
-    {
         "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
         "id": "cordova-plugin-camera.Camera",
         "clobbers": [
@@ -48,7 +41,6 @@ module.exports.metadata =
 {
     "cordova-plugin-whitelist": "1.0.0",
     "cordova-plugin-statusbar": "1.0.1-dev",
-    "com.telerik.plugins.nativepagetransitions": "0.4.1",
     "cordova-plugin-camera": "1.2.1-dev"
 }
 // BOTTOM OF METADATA

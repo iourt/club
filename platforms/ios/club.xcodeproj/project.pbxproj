@@ -40,7 +40,6 @@
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		9D4A54851AC143A187DEE352 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 27270DD18A574932A000051D /* CDVStatusBar.m */; };
-		F1539C7F37614964BF8082E3 /* NativePageTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF93452AF8D8447E9E0377CC /* NativePageTransitions.m */; };
 		13E6ED89D6AC4147A186554E /* UIImage+CropScaleOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C6228FE4964B969B711ABA /* UIImage+CropScaleOrientation.m */; };
 		23A6E5E16AE04A0895D56426 /* CDVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDA85282FB4C1D966FF4BB /* CDVCamera.m */; };
 		D0C39959B021432D914ADFF3 /* CDVJpegHeaderWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDBD3E48C54633BFD95DB3 /* CDVJpegHeaderWriter.m */; };
@@ -114,8 +113,6 @@
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "club/config.xml"; sourceTree = "<group>"; };
 		27270DD18A574932A000051D /* CDVStatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVStatusBar.m"; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		5289EF81C9D0437894871648 /* CDVStatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		BF93452AF8D8447E9E0377CC /* NativePageTransitions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NativePageTransitions.m"; path = "com.telerik.plugins.nativepagetransitions/NativePageTransitions.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		ED5E401D99E04BDAA3514EC9 /* NativePageTransitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NativePageTransitions.h"; path = "com.telerik.plugins.nativepagetransitions/NativePageTransitions.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		92C6228FE4964B969B711ABA /* UIImage+CropScaleOrientation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CropScaleOrientation.m"; path = "cordova-plugin-camera/UIImage+CropScaleOrientation.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		4EDDA85282FB4C1D966FF4BB /* CDVCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVCamera.m"; path = "cordova-plugin-camera/CDVCamera.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		4FDDBD3E48C54633BFD95DB3 /* CDVJpegHeaderWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVJpegHeaderWriter.m"; path = "cordova-plugin-camera/CDVJpegHeaderWriter.m"; sourceTree = "<group>"; fileEncoding = 4; };
@@ -232,8 +229,6 @@
 			children = (
 				27270DD18A574932A000051D /* CDVStatusBar.m */,
 				5289EF81C9D0437894871648 /* CDVStatusBar.h */,
-				BF93452AF8D8447E9E0377CC /* NativePageTransitions.m */,
-				ED5E401D99E04BDAA3514EC9 /* NativePageTransitions.h */,
 				92C6228FE4964B969B711ABA /* UIImage+CropScaleOrientation.m */,
 				4EDDA85282FB4C1D966FF4BB /* CDVCamera.m */,
 				4FDDBD3E48C54633BFD95DB3 /* CDVJpegHeaderWriter.m */,
@@ -426,7 +421,6 @@
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				9D4A54851AC143A187DEE352 /* CDVStatusBar.m in Sources */,
-				F1539C7F37614964BF8082E3 /* NativePageTransitions.m in Sources */,
 				13E6ED89D6AC4147A186554E /* UIImage+CropScaleOrientation.m in Sources */,
 				23A6E5E16AE04A0895D56426 /* CDVCamera.m in Sources */,
 				D0C39959B021432D914ADFF3 /* CDVJpegHeaderWriter.m in Sources */,
