@@ -35,6 +35,10 @@
                         {
                             "xml": "<feature name=\"ActionSheet\"><param name=\"ios-package\" value=\"ActionSheet\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"NetworkStatus\"><param name=\"ios-package\" value=\"CDVConnection\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -79,6 +83,12 @@
                             "xml": false,
                             "count": 1
                         }
+                    ],
+                    "SystemConfiguration.framework": [
+                        {
+                            "xml": true,
+                            "count": 1
+                        }
                     ]
                 }
             },
@@ -108,6 +118,9 @@
             "PACKAGE_NAME": "com.phoneapp.club"
         },
         "nl.x-services.plugins.actionsheet": {
+            "PACKAGE_NAME": "com.phoneapp.club"
+        },
+        "org.apache.cordova.network-information": {
             "PACKAGE_NAME": "com.phoneapp.club"
         }
     },
