@@ -7664,12 +7664,12 @@ a, a:hover {
     .mod_show_layout ul:before {
       position: absolute;
       right: 10px;
-      top: -20px;
+      top: -10px;
       content: "";
       display: block;
       width: 0;
       height: 0;
-      border-width: 10px;
+      border-width: 5px;
       border-style: solid;
       border-color: transparent transparent rgba(0, 0, 0, 0.8) transparent; }
     .mod_show_layout ul li {
