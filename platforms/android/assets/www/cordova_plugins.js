@@ -68,6 +68,13 @@ module.exports = [
         "clobbers": [
             "Connection"
         ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.splashscreen/www/splashscreen.js",
+        "id": "org.apache.cordova.splashscreen.SplashScreen",
+        "clobbers": [
+            "navigator.splashscreen"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -78,7 +85,8 @@ module.exports.metadata =
     "cordova-plugin-whitelist": "1.0.0",
     "com.ionic.keyboard": "1.0.5",
     "nl.x-services.plugins.actionsheet": "1.1.7",
-    "org.apache.cordova.network-information": "0.2.15"
+    "org.apache.cordova.network-information": "0.2.15",
+    "org.apache.cordova.splashscreen": "1.0.0"
 }
 // BOTTOM OF METADATA
 });

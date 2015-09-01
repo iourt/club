@@ -39,6 +39,10 @@
                         {
                             "xml": "<feature name=\"NetworkStatus\"><param name=\"ios-package\" value=\"CDVConnection\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -63,7 +67,7 @@
                     "CoreGraphics.framework": [
                         {
                             "xml": false,
-                            "count": 2
+                            "count": 3
                         }
                     ],
                     "MobileCoreServices.framework": [
@@ -121,6 +125,9 @@
             "PACKAGE_NAME": "com.phoneapp.club"
         },
         "org.apache.cordova.network-information": {
+            "PACKAGE_NAME": "com.phoneapp.club"
+        },
+        "org.apache.cordova.splashscreen": {
             "PACKAGE_NAME": "com.phoneapp.club"
         }
     },
