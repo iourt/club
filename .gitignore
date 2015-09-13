@@ -5,3 +5,5 @@ Thumbs.db
 
 /workspace/native/platforms/android/build/outputs/apk/
 /platforms/*.zip
+/platforms/ios/build/
+/platforms/android/build/
