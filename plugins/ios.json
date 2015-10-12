@@ -43,6 +43,14 @@
                         {
                             "xml": "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"false\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"AppVersion\"><param name=\"ios-package\" value=\"AppVersion\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -128,6 +136,12 @@
             "PACKAGE_NAME": "com.phoneapp.club"
         },
         "org.apache.cordova.splashscreen": {
+            "PACKAGE_NAME": "com.phoneapp.club"
+        },
+        "uk.co.whiteoctober.cordova.appversion": {
+            "PACKAGE_NAME": "com.phoneapp.club"
+        },
+        "org.apache.cordova.device": {
             "PACKAGE_NAME": "com.phoneapp.club"
         }
     },
