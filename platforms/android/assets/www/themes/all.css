@@ -7414,7 +7414,7 @@ a, a:hover {
   bottom: 0;
   z-index: 100;
   display: -webkit-box; }
-  .mod_footer a {
+  .mod_footer div {
     text-align: center;
     color: #cacdcb;
     height: 48px;
@@ -7423,7 +7423,7 @@ a, a:hover {
     display: block;
     width: 0;
     -webkit-box-flex: 1; }
-    .mod_footer a:before {
+    .mod_footer div:before {
       font-family: "Ionicons";
       font-weight: normal;
       display: block;
@@ -7433,17 +7433,17 @@ a, a:hover {
       color: #ccc;
       line-height: 26px;
       text-align: center; }
-    .mod_footer a:before {
+    .mod_footer div:before {
       padding-top: 2px; }
-    .mod_footer a.current {
+    .mod_footer div.current {
       color: #3cc482; }
-      .mod_footer a.current:before {
+      .mod_footer div.current:before {
         color: #3cc482; }
-    .mod_footer a:nth-child(2):before {
+    .mod_footer div:nth-child(2):before {
       content: "\f37c"; }
-    .mod_footer a:nth-child(4):before {
+    .mod_footer div:nth-child(4):before {
       content: "\f259"; }
-    .mod_footer a:nth-child(4).new:after {
+    .mod_footer div:nth-child(4).new:after {
       font-family: "Ionicons";
       font-weight: normal;
       display: block;
@@ -7453,7 +7453,7 @@ a, a:hover {
       color: red;
       line-height: 26px;
       text-align: center; }
-    .mod_footer a:nth-child(5):before {
+    .mod_footer div:nth-child(5):before {
       content: "\f3a0"; }
   .mod_footer p {
     height: 48px;
@@ -9642,17 +9642,27 @@ a, a:hover {
       margin-top: 10px; }
 
 .mod_description_01 {
-  background: url(img/bg_activity_text.jpg) no-repeat left bottom #2f4378;
-  background-size: 100% auto;
   color: #fff;
-  padding: 10px; }
+  position: relative; }
   .mod_description_01 h2 {
     text-align: center;
     font-size: 16px;
     line-height: 30px;
     color: #fff; }
   .mod_description_01 article {
-    line-height: 20px; }
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    line-height: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    display: -webkit-box;
+    -webkit-box-align: center;
+    box-sizing: border-box; }
+  .mod_description_01 img {
+    width: 100%;
+    display: block; }
 
 .mod_login_01 {
   padding: 10px;
@@ -10524,19 +10534,23 @@ a, a:hover {
     border-bottom: 1px solid #dedede;
     -webkit-border-image: url(img/icon_border_half.png) 2 stretch; }
     .msg_praise li img {
-      margin-right: 10px;
       display: block;
-      -webkit-border-radius: 40px;
       width: 40px;
-      height: 40px; }
+      height: 40px;
+      border-radius: 20px; }
     .msg_praise li dl {
+      padding: 0 10px;
       margin: 0;
       -webkit-box-flex: 1; }
       .msg_praise li dl dt {
         line-height: 25px;
         color: #3cc482; }
       .msg_praise li dl dd {
-        font-size: 12px; }
+        font-size: 12px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden; }
         .msg_praise li dl dd i {
           color: #cacdcb; }
     .msg_praise li div {
@@ -11212,12 +11226,13 @@ a, a:hover {
     height: 70px;
     border: 2px solid #fff;
     overflow: hidden;
+    -webkit-box-sizing: none;
     border-radius: 70px; }
     .user_list_top div img {
       display: block;
-      width: 70px;
-      height: 70px;
-      border-radius: 70px; }
+      width: 66px;
+      height: 66px;
+      border-radius: 33px; }
   .user_list_top h2 {
     margin: 0;
     line-height: 30px;
