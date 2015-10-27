@@ -42,6 +42,11 @@
     <feature name="Device">
         <param name="ios-package" value="CDVDevice" />
     </feature>
+    <feature name="Wechat">
+        <param name="ios-package" value="CDVWechat" />
+        <param name="onload" value="true" />
+    </feature>
+    <preference name="WECHATAPPID" value="wx0095c65e446a296f" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
     <name>club</name>

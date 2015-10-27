@@ -55,6 +55,13 @@
 		A509E0C33EA54630B82A52B8 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = D462BEAAC43C4FF189DB8FB2 /* CDVSplashScreen.m */; };
 		5112935FE63049E69D6344EB /* AppVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 942A705E4F564F56AF9B3793 /* AppVersion.m */; };
 		6C2081121AB143908844AC36 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = B25E0D2B414D409E945BA38F /* CDVDevice.m */; };
+		0C5A972751484C90998A53AE /* CDVWechat.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F16A8FC0A743EFA34B0194 /* CDVWechat.m */; };
+		9A5CCB16FA9749CAAF8F2E7E /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4321A923980C4A55AF056C1E /* libWeChatSDK.a */; };
+		A32D9443A4084D878C2E4C98 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E1DB29B92C740F38F441A15 /* libz.dylib */; };
+		40418021A2A6481180B507DE /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 64109335E92245FAA3512BEB /* libsqlite3.0.dylib */; };
+		E6B88571A7994DBC8ED5B6CD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958BED33373644C8BDA64F5F /* CoreTelephony.framework */; };
+		EA95EF76100744BC88D909A5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A703137D9984003A22332AF /* Security.framework */; };
+		8ABA0092DCF74B8C8B39F8B8 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7715843E2DA84DAE8EDCDDFC /* libstdc++.6.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +156,16 @@
 		ABF70DDE273A4016AA49B0DA /* AppVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppVersion.h"; path = "uk.co.whiteoctober.cordova.appversion/AppVersion.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		B25E0D2B414D409E945BA38F /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "org.apache.cordova.device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		69AFD59F1D784CC5B48C6CB0 /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "org.apache.cordova.device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E3F16A8FC0A743EFA34B0194 /* CDVWechat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVWechat.m"; path = "xu.li.cordova.wechat/CDVWechat.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		4321A923980C4A55AF056C1E /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libWeChatSDK.a"; path = "club/Plugins/xu.li.cordova.wechat/libWeChatSDK.a"; sourceTree = "<group>"; fileEncoding = 4; };
+		00CAAD7FC4734007ABEAC685 /* CDVWechat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVWechat.h"; path = "xu.li.cordova.wechat/CDVWechat.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		86B1DC386B8547E08F395798 /* WXApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WXApi.h"; path = "xu.li.cordova.wechat/WXApi.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D580B24196A3494CA710E70A /* WXApiObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WXApiObject.h"; path = "xu.li.cordova.wechat/WXApiObject.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		6E1DB29B92C740F38F441A15 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		64109335E92245FAA3512BEB /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsqlite3.0.dylib"; path = "usr/lib/libsqlite3.0.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		958BED33373644C8BDA64F5F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		7A703137D9984003A22332AF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		7715843E2DA84DAE8EDCDDFC /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +181,12 @@
 				B9716C9FC9EE4EFBA77EEEE5 /* CoreLocation.framework in Frameworks */,
 				9450AC9FC4F7459A94840A1D /* AVFoundation.framework in Frameworks */,
 				459B8D3C4CFF4FD8A15CB41C /* SystemConfiguration.framework in Frameworks */,
+				9A5CCB16FA9749CAAF8F2E7E /* libWeChatSDK.a in Frameworks */,
+				A32D9443A4084D878C2E4C98 /* libz.dylib in Frameworks */,
+				40418021A2A6481180B507DE /* libsqlite3.0.dylib in Frameworks */,
+				E6B88571A7994DBC8ED5B6CD /* CoreTelephony.framework in Frameworks */,
+				EA95EF76100744BC88D909A5 /* Security.framework in Frameworks */,
+				8ABA0092DCF74B8C8B39F8B8 /* libstdc++.6.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +263,12 @@
 				41787ECBFD134373A9644FA4 /* CoreLocation.framework */,
 				81B0D06931F745E39AB4D97E /* AVFoundation.framework */,
 				55C2514ACA2B447BA8C1037D /* SystemConfiguration.framework */,
+				4321A923980C4A55AF056C1E /* libWeChatSDK.a */,
+				6E1DB29B92C740F38F441A15 /* libz.dylib */,
+				64109335E92245FAA3512BEB /* libsqlite3.0.dylib */,
+				958BED33373644C8BDA64F5F /* CoreTelephony.framework */,
+				7A703137D9984003A22332AF /* Security.framework */,
+				7715843E2DA84DAE8EDCDDFC /* libstdc++.6.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -280,6 +309,10 @@
 				ABF70DDE273A4016AA49B0DA /* AppVersion.h */,
 				B25E0D2B414D409E945BA38F /* CDVDevice.m */,
 				69AFD59F1D784CC5B48C6CB0 /* CDVDevice.h */,
+				E3F16A8FC0A743EFA34B0194 /* CDVWechat.m */,
+				00CAAD7FC4734007ABEAC685 /* CDVWechat.h */,
+				86B1DC386B8547E08F395798 /* WXApi.h */,
+				D580B24196A3494CA710E70A /* WXApiObject.h */,
 			);
 			name = Plugins;
 			path = "club/Plugins";
@@ -476,6 +509,7 @@
 				A509E0C33EA54630B82A52B8 /* CDVSplashScreen.m in Sources */,
 				5112935FE63049E69D6344EB /* AppVersion.m in Sources */,
 				6C2081121AB143908844AC36 /* CDVDevice.m in Sources */,
+				0C5A972751484C90998A53AE /* CDVWechat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +552,10 @@
 				);
 				PRODUCT_NAME = "club";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/club/Plugins/xu.li.cordova.wechat\"",
+				);
 			};
 			name = Debug;
 		};
@@ -547,6 +585,10 @@
 				);
 				PRODUCT_NAME = "club";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/club/Plugins/xu.li.cordova.wechat\"",
+				);
 			};
 			name = Release;
 		};

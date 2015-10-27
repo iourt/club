@@ -32,6 +32,10 @@
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
+    <feature name="Wechat">
+        <param name="android-package" value="xu.li.cordova.wechat.Wechat" />
+    </feature>
+    <preference name="WECHATAPPID" value="wx0095c65e446a296f" />
     <allow-intent href="market:*" />
     <name>club</name>
     <description>
