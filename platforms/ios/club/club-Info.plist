@@ -213,6 +213,22 @@
           <string>wx0095c65e446a296f</string>
         </array>
       </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>weixin</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>wx0095c65e446a296f</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>weixin</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>wx0095c65e446a296f</string>
+        </array>
+      </dict>
     </array>
   </dict>
 </plist>
