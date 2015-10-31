@@ -9307,6 +9307,9 @@ a, a:hover {
       .mod_detail_menu ul li.t_qq:before {
         background: url(img/share_qq.png) no-repeat center center #029dff;
         background-size: 30px auto; }
+      .mod_detail_menu ul li.t_qzone:before {
+        background: url(img/share_qzone.png) no-repeat center center #f5be40;
+        background-size: 30px auto; }
       .mod_detail_menu ul li.t_report:before {
         content: "\f100";
         color: #ffcc00; }
@@ -9587,6 +9590,50 @@ a, a:hover {
       text-align: center;
       color: #fff;
       font-size: 12px; }
+
+.club_hot {
+  background: #fff; }
+  .club_hot li {
+    padding: 10px;
+    border-width: 0;
+    border-bottom: 1px solid #dedede;
+    -webkit-border-image: url(img/icon_border_half.png) 2 stretch; }
+    .club_hot li div:nth-child(1) {
+      position: relative;
+      display: -webkit-box; }
+      .club_hot li div:nth-child(1) img {
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+        display: block; }
+      .club_hot li div:nth-child(1) article {
+        display: block;
+        -webkit-box-flex: 1;
+        line-height: 20px;
+        color: #cacdcb; }
+        .club_hot li div:nth-child(1) article h2 {
+          color: #333;
+          font-size: 14px;
+          margin-bottom: 10px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden; }
+        .club_hot li div:nth-child(1) article p {
+          line-height: 20px; }
+          .club_hot li div:nth-child(1) article p:last-child {
+            text-align: right;
+            color: #3cc482; }
+    .club_hot li div:nth-child(2) {
+      margin-top: 10px;
+      clear: both;
+      padding-left: 5px;
+      line-height: 18px;
+      border-left: 2px solid #3cc482;
+      color: #666;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden; }
 
 .forum_activity_list {
   background: #fff;

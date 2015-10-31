@@ -61,4 +61,15 @@
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="30000" />
     <preference name="SplashMaintainAspectRatio" value="true" />
+    <feature name="YCQQ">
+        <param name="android-package" value="org.zy.yuancheng.qq.YCQQ" />
+    </feature>
+    <access origin="https://openmobile.qq.com/*" />
+    <access origin="http://qzonestyle.gtimg.cn/*" />
+    <access origin="http://pub.idqqimg.com/*" />
+    <access origin="http://appsupport.qq.com/*" />
+    <access origin="http://support.qq.com/*" />
+    <access origin="http://qzs.qq.com/*" />
+    <access origin="http://m.qzone.com/*" />
+    <preference name="QQ_APP_ID" value="1104738128" />
 </widget>

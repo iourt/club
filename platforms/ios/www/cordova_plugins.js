@@ -91,6 +91,13 @@ module.exports = [
         "clobbers": [
             "Wechat"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-qqsdk/www/ycqq.js",
+        "id": "cordova-plugin-qqsdk.ycqq",
+        "clobbers": [
+            "YCQQ"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -105,7 +112,8 @@ module.exports.metadata =
     "org.apache.cordova.splashscreen": "1.0.0",
     "uk.co.whiteoctober.cordova.appversion": "0.1.7",
     "org.apache.cordova.device": "0.3.0",
-    "xu.li.cordova.wechat": "0.9.1"
+    "xu.li.cordova.wechat": "0.9.1",
+    "cordova-plugin-qqsdk": "0.3.8"
 }
 // BOTTOM OF METADATA
 });

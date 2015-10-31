@@ -85,5 +85,16 @@
         "variables": {
             "WECHATAPPID": "wx0095c65e446a296f"
         }
+    },
+    "cordova-plugin-qqsdk": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/iVanPan/Cordova_QQ.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {
+            "QQ_APP_ID": "1104738128"
+        }
     }
 }

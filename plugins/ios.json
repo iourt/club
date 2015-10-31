@@ -59,6 +59,42 @@
                         {
                             "xml": "<preference name=\"WECHATAPPID\" value=\"wx0095c65e446a296f\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"YCQQ\"><param name=\"ios-package\" value=\"YCQQ\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://openmobile.qq.com/*\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"http://qzonestyle.gtimg.cn/*\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"http://pub.idqqimg.com/*\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"http://appsupport.qq.com/*\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"http://support.qq.com/*\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"http://qzs.qq.com/*\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"http://m.qzone.com/*\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"QQ_APP_ID\" value=\"1104738128\" />",
+                            "count": 1
                         }
                     ]
                 }
@@ -83,7 +119,7 @@
                     "CoreGraphics.framework": [
                         {
                             "xml": false,
-                            "count": 3
+                            "count": 4
                         }
                     ],
                     "MobileCoreServices.framework": [
@@ -111,13 +147,13 @@
                         },
                         {
                             "xml": false,
-                            "count": 1
+                            "count": 2
                         }
                     ],
                     "libz.dylib": [
                         {
                             "xml": false,
-                            "count": 1
+                            "count": 2
                         }
                     ],
                     "libsqlite3.0.dylib": [
@@ -129,16 +165,34 @@
                     "CoreTelephony.framework": [
                         {
                             "xml": false,
-                            "count": 1
+                            "count": 2
                         }
                     ],
                     "Security.framework": [
                         {
                             "xml": false,
-                            "count": 1
+                            "count": 2
                         }
                     ],
                     "libstdc++.6.dylib": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "libiconv.dylib": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "libsqlite3.dylib": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "libstdc++.dylib": [
                         {
                             "xml": false,
                             "count": 1
@@ -158,17 +212,25 @@
                         {
                             "xml": "<array><string>weixin</string><string>wechat</string></array>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<array><string>mqqapi</string><string>mqq</string><string>mqqOpensdkSSoLogin</string><string>mqqconnect</string><string>mqqopensdkdataline</string><string>mqqopensdkgrouptribeshare</string><string>mqqopensdkfriend</string><string>mqqopensdkapi</string><string>mqqopensdkapiV2</string><string>mqqopensdkapiV3</string><string>mqzoneopensdk</string><string>wtloginmqq</string><string>wtloginmqq2</string><string>mqqwpa</string><string>mqzone</string><string>mqzonev2</string><string>mqzoneshare</string><string>wtloginqzone</string><string>mqzonewx</string><string>mqzoneopensdkapiV2</string><string>mqzoneopensdkapi19</string><string>mqzoneopensdkapi</string><string>mqzoneopensdk</string></array>",
+                            "count": 1
                         }
                     ],
                     "NSAppTransportSecurity": [
                         {
                             "xml": "<dict><key>NSAllowsArbitraryLoads</key><true /></dict>",
-                            "count": 1
+                            "count": 2
                         }
                     ],
                     "CFBundleURLTypes": [
                         {
                             "xml": "<array><dict><key>CFBundleURLName</key><string>weixin</string><key>CFBundleURLSchemes</key><array><string>wx0095c65e446a296f</string></array></dict></array>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<array><dict><key>CFBundleTypeRole</key><string>Editor</string><key>CFBundleURLName</key><string>tencentopenapi</string><key>CFBundleURLSchemes</key><array><string>tencent1104738128</string></array></dict></array>",
                             "count": 1
                         }
                     ]
@@ -206,6 +268,10 @@
         },
         "xu.li.cordova.wechat": {
             "WECHATAPPID": "wx0095c65e446a296f",
+            "PACKAGE_NAME": "com.phoneapp.club"
+        },
+        "cordova-plugin-qqsdk": {
+            "QQ_APP_ID": "1104738128",
             "PACKAGE_NAME": "com.phoneapp.club"
         }
     },
