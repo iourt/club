@@ -34,6 +34,16 @@
             </intent-filter>
         </activity>
         <activity android:configChanges="orientation|keyboardHidden" android:name="com.tencent.connect.common.AssistActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:windowSoftInputMode="adjustResize" />
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.sina.weibo.sdk.register.mobile.MobileRegisterActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize" />
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.sina.weibo.sdk.register.mobile.SelectCountryActivity" android:windowSoftInputMode="adjustResize" />
+        <activity android:configChanges="keyboardHidden|orientation" android:name="org.zy.yuancheng.weibo.YCWeiboShareCallback" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="com.sina.weibo.sdk.net.DownloadService" />
     </application>
     <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="22" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />

@@ -103,6 +103,13 @@ module.exports = [
         "clobbers": [
             "YCQQ"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-weibosdk/www/ycweibo.js",
+        "id": "cordova-plugin-weibosdk.ycweibo",
+        "clobbers": [
+            "YCWeibo"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -118,7 +125,8 @@ module.exports.metadata =
     "uk.co.whiteoctober.cordova.appversion": "0.1.7",
     "org.apache.cordova.device": "0.3.0",
     "xu.li.cordova.wechat": "0.9.1",
-    "cordova-plugin-qqsdk": "0.3.8"
+    "cordova-plugin-qqsdk": "0.3.8",
+    "cordova-plugin-weibosdk": "0.3.4"
 }
 // BOTTOM OF METADATA
 });

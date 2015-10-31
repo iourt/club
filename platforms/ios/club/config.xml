@@ -58,6 +58,18 @@
     <access origin="http://qzs.qq.com/*" />
     <access origin="http://m.qzone.com/*" />
     <preference name="QQ_APP_ID" value="1104738128" />
+    <feature name="YCWeibo">
+        <param name="ios-package" value="YCWeibo" />
+    </feature>
+    <access origin="https://open.weibo.cn/*" />
+    <access origin="https://*.sina.cn/*" />
+    <access origin="https://login.sina.com.cn/*" />
+    <access origin="https://passport.weibo.cn/*" />
+    <access origin="http://service.weibo.com/share/*" />
+    <access origin="http://*.sinajs.cn/*" />
+    <access origin="http://*.sina.com.cn/*" />
+    <access origin="https://api.weibo.com/*" />
+    <preference name="WEIBO_APP_ID" value="572890832" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
     <name>club</name>
