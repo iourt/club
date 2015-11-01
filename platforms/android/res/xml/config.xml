@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="cn.com.yejs.teacher" version="2.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.phoneapp.club" version="2.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
     <feature name="Camera">
         <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
@@ -36,6 +36,26 @@
         <param name="android-package" value="xu.li.cordova.wechat.Wechat" />
     </feature>
     <preference name="WECHATAPPID" value="wx0095c65e446a296f" />
+    <feature name="YCQQ">
+        <param name="android-package" value="org.zy.yuancheng.qq.YCQQ" />
+    </feature>
+    <access origin="https://openmobile.qq.com/*" />
+    <access origin="http://qzonestyle.gtimg.cn/*" />
+    <access origin="http://pub.idqqimg.com/*" />
+    <access origin="http://appsupport.qq.com/*" />
+    <access origin="http://support.qq.com/*" />
+    <access origin="http://qzs.qq.com/*" />
+    <access origin="http://m.qzone.com/*" />
+    <preference name="QQ_APP_ID" value="1104738128" />
+    <feature name="YCWeibo">
+        <param name="android-package" value="org.zy.yuancheng.weibo.YCWeibo" />
+    </feature>
+    <access origin="https://open.weibo.cn/*" />
+    <access origin="https://login.sina.com.cn/*" />
+    <access origin="https://passport.weibo.cn/*" />
+    <access origin="http://*.sinaimg.cn/*" />
+    <access origin="https://api.weibo.com/*" />
+    <preference name="WEIBO_APP_ID" value="572890832" />
     <allow-intent href="market:*" />
     <name>club</name>
     <description>
@@ -61,24 +81,4 @@
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="30000" />
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <feature name="YCQQ">
-        <param name="android-package" value="org.zy.yuancheng.qq.YCQQ" />
-    </feature>
-    <access origin="https://openmobile.qq.com/*" />
-    <access origin="http://qzonestyle.gtimg.cn/*" />
-    <access origin="http://pub.idqqimg.com/*" />
-    <access origin="http://appsupport.qq.com/*" />
-    <access origin="http://support.qq.com/*" />
-    <access origin="http://qzs.qq.com/*" />
-    <access origin="http://m.qzone.com/*" />
-    <preference name="QQ_APP_ID" value="1104738128" />
-    <feature name="YCWeibo">
-        <param name="android-package" value="org.zy.yuancheng.weibo.YCWeibo" />
-    </feature>
-    <access origin="https://open.weibo.cn/*" />
-    <access origin="https://login.sina.com.cn/*" />
-    <access origin="https://passport.weibo.cn/*" />
-    <access origin="http://*.sinaimg.cn/*" />
-    <access origin="https://api.weibo.com/*" />
-    <preference name="WEIBO_APP_ID" value="572890832" />
 </widget>
